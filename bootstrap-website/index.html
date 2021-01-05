@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+              <img src="img/logo.jpg" alt="Logo" width="80px" height="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ml-auto">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item ml-auto">
+                  <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item ml-auto">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+      <header class="main-header">
+        <div class="background-overlay text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center">
+                        <h1>Nach Scratch</h1>
+                        <P>El fracaso inspira a un ganador y hunde a los perdedores</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-white">Read More</a>
+                    </div>
+                    <div class="col-md-6">
+                      <img src="img/portadaLibro.jpg" class="img-fluid d-none d-sm-block" alt="portada" width="30%" height="30%">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+
+<!-- Newsletter-->
+  <section class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg" placeholder="Ingrese su nombre">
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control form-control-lg" placeholder="Ingrese su correo">
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-primary btn-lg btn-block">Suscribete</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center border-primary text-primary">
+            <div class="card-body">
+              <h3>One</h3>
+              <p>viviendo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-primary text-white">
+            <div class="card-body">
+              <h3>Two</h3>
+              <p>El amor viene y va</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center border-primary text-primary">
+            <div class="card-body">
+              <h3>Three</h3>
+              <p>El cuenta Cuentos</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-primary text-white">
+            <div class="card-body">
+              <h3>four</h3>
+              <p>Disparos de Silencio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="m-5 text-center text-light justify-content-center align-self-center">
+          <h3>¿Quién es nach?</h3>
+          <p>El día 1 de octubre de 1974, nació en la ciudad de Albacete, en España, Ignacio Fornés Olmo, cantante de género rap y conocido inicialmente como Nach Scratch, cambiando posteriormente su nombre a Nach.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Acordeon -->
+  <section class="container p-5">
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header text-center" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Datos Personales
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <b>Nombre Real:</b> Ignacio José Fornés Olmo<br>
+            <b>Fecha de Nacimiento:</b> 1 de Octubre de 1974<br>
+            <b>Edad actual:</b> 45 años<br>
+            <b>Lugar de Nacimiento:</b> Alicante (España)<br>
+            <b>Géneros:</b> <a class="text-danger" href="#">Rap</a>
+  
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header text-center" id="headingTwo" >
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Discografía Completa
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <ul>
+              <li>1994 D.E.P.</li>
+              <li>1997 Trucos</li>
+              <li>2000 En la brevedad de los días</li>
+              <li>2003 Poesía difusa</li>
+              <li>2004 Juega (Maxi)</li>
+              <li>2005 Ars Magna - Miradas</li>
+              <li>2008 Un día en suburbia</li>
+              <li>2011 Mejor que el silencio</li>
+              <li>2014 Los Viajes Inmóviles</li>
+              <li>2015 A través de mi</li>
+              <li>2016 Cazadores de instantes</li>
+              <li>2018 Almanauta</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header text-center" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Temas Inéditos
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            <ul>
+              <li>"Perro No Come Perro" versión con Tres Coronas (P.N.O y Rocca)</li>
+              <li>"Hoy Converso con Miguel" (2010) [Tributo al poeta Miguel Hernández por el centenario de su nacimiento]</li>
+              <li>"Basado en Hechos Reales" (2011) [Edición creada por haber llegado a los 300,000 seguidores de Nach en su Facebook oficial]</li>
+              <li>"No Sale el Sol" (2012)</li>
+              <li>"After Hour" Con DJ Joaking & DJ SaoT ST (2012)</li>
+              <li>"Verbo"</li>
+              <li>"Latam Tour"</li>
+              <li>"Quiero Contarte" #TUITSAOJO (2017)</li>
+              <li>"Efectos vocales"</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="team text-center">
+    <div class="container p-5">
+      <h1 class="text-white">Team</h1>
+      <p class="text-white">Equipo que desarrollo esta página web</p>
+      <div class="row">
+        <!-- Member -->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/user.png" alt="usuario" class="img-fluid rounded-circle w-50">
+              <h3>Victor</h3>
+              <div class="d-flex flex-row justify-content-center">
+              <!--Facebook-->  
+                <div class="p-4">
+                  <a href="http://facebook.com" target="_blank">
+                    <img src="img/facebook.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--Instagram-->
+                <div class="p-4">
+                  <a href="http://instagram.com" target="_blank">
+                    <img src="img/Instagram.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--Twitter-->
+                <div class="p-4">
+                  <a href="http://twitter.com" target="_blank">
+                    <img src="img/Twitter.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--WhatsApp-->
+                <div class="p-4">
+                  <a href="http://whatsapp.com" target="_blank">
+                    <img src="img/WhatsApp.png" width="15px" alt="F">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/user.png" alt="usuario" class="img-fluid rounded-circle w-50">
+              <h3>Hugo</h3>
+              <div class="d-flex flex-row justify-content-center">
+              <!--Facebook-->  
+                <div class="p-4">
+                  <a href="http://facebook.com" target="_blank">
+                    <img src="img/facebook.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--Instagram-->
+                <div class="p-4">
+                  <a href="http://instagram.com" target="_blank">
+                    <img src="img/Instagram.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--Twitter-->
+                <div class="p-4">
+                  <a href="http://twitter.com" target="_blank">
+                    <img src="img/Twitter.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--WhatsApp-->
+                <div class="p-4">
+                  <a href="http://whatsapp.com" target="_blank">
+                    <img src="img/WhatsApp.png" width="15px" alt="F">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/user.png" alt="usuario" class="img-fluid rounded-circle w-50">
+              <h3>Vigo</h3>
+              <div class="d-flex flex-row justify-content-center">
+              <!--Facebook-->  
+                <div class="p-4">
+                  <a href="http://facebook.com" target="_blank">
+                    <img src="img/facebook.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--Instagram-->
+                <div class="p-4">
+                  <a href="http://instagram.com" target="_blank">
+                    <img src="img/Instagram.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--Twitter-->
+                <div class="p-4">
+                  <a href="http://twitter.com" target="_blank">
+                    <img src="img/Twitter.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--WhatsApp-->
+                <div class="p-4">
+                  <a href="http://whatsapp.com" target="_blank">
+                    <img src="img/WhatsApp.png" width="15px" alt="F">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/user.png" alt="usuario" class="img-fluid rounded-circle w-50">
+              <h3>Hutor</h3>
+              <div class="d-flex flex-row justify-content-center">
+              <!--Facebook-->  
+                <div class="p-4">
+                  <a href="http://facebook.com" target="_blank">
+                    <img src="img/facebook.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--Instagram-->
+                <div class="p-4">
+                  <a href="http://instagram.com" target="_blank">
+                    <img src="img/Instagram.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--Twitter-->
+                <div class="p-4">
+                  <a href="http://twitter.com" target="_blank">
+                    <img src="img/Twitter.png" width="15px" alt="F">
+                  </a>
+                </div>
+                <!--WhatsApp-->
+                <div class="p-4">
+                  <a href="http://whatsapp.com" target="_blank">
+                    <img src="img/WhatsApp.png" width="15px" alt="F">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <h3>Contactanos</h3>
+        </div>
+        <p>Ingresa tus datos en el siguiente formulario</p>
+        <form action="">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <img src="img/userFormulario.png" class="fas fa-user input-group-text" alt="I" width="38px" height="38px">
+            </div>
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <img src="img/mensajeFormulario.png" class="fas fa-user input-group-text" alt="I" width="38px" height="38px">
+            </div>
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <img src="img/lapizFormulario.png" class="fas fa-user input-group-text" alt="I" width="38px" height="38px">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placehoslder="Message" class="form-control"></textarea>
+          </div>
+          <button class="btn btn-primary btn-lg btn-block">Send</button>
+        </form>
+        <div class="col-lf-3 align-self-center">
+          <img src="img/portadaHambriento.jpg" alt="L" class="ml-5">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container p-3 text-white text-center">
+      <p>Copyright &copy; 2018</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

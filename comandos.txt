@@ -1,0 +1,10 @@
+Antes de instalar alguna dependencia
+npm cache clean --force
+
+Dependencias
+npm install bootstrap font-awesome jquery popper.js
+
+No Dependencias
+npm i -D gulp gulp-cli gulp-sass browser-sync
+Otra forma para browser-sync
+npm install browser --save-dev
